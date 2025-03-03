@@ -42,3 +42,6 @@ abbr --add scu-mask-now "systemctl --user mask --now "
 # --- --failed commands ---
 abbr --add sc-failed "systemctl --failed "
 abbr --add scu-failed "systemctl --user --failed "
+
+# unset variables
+set -e user_commands sudo_commands power_commands
